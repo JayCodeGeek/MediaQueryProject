@@ -198,6 +198,7 @@
     background-image: url(./Assets/MyHeroAcademiaBack2.jpeg);
     background-size: 100% 100%;
     animation: backcardvisible 1.5s ease 0s 1 normal;
+    color: white;
   }
   .backcard8 {
     background-image: url(./Assets/KaijuNo8Back.jpeg);
