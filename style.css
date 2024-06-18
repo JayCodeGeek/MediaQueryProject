@@ -198,7 +198,6 @@
     background-image: url(./Assets/MyHeroAcademiaBack2.jpeg);
     background-size: 100% 100%;
     animation: backcardvisible 1.5s ease 0s 1 normal;
-    color: white;
   }
   .backcard8 {
     background-image: url(./Assets/KaijuNo8Back.jpeg);
@@ -250,6 +249,13 @@
     text-align: center;
     margin: 0px;
     font-size: 1.4rem;
+  }
+  .footer a{
+    color: white;
+  }
+  .footer a:hover{
+    color: rgb(0, 238, 255);
+    font-weight: bold;
   }
   .animedescription {
     height: 150px;
@@ -455,9 +461,18 @@
     display: block;
     animation: backcardvisible 2s ease 0s 1 normal;
   }
-  .footer > p {
+  .footer{
     text-align: center;
+    color: white;
   }
+  .footer a{
+    color: white;
+  }
+  .footer a:hover{
+    font-weight: bold;
+    color: rgb(0, 238, 255)
+  }
+  
   /* With this property, we can set the width of scrollbar*/
   ::-webkit-scrollbar {
     width: 5px;
